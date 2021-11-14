@@ -1,9 +1,4 @@
 module.exports = function(eleventyConfig) {
-    dir: {
-        input: "./",
-        output: "docs"
-    }
-
     
     const markdownIt = require('markdown-it');
     const markdownItOptions = {
